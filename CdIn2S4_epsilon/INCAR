@@ -1,0 +1,24 @@
+Electronic minimization
+  ENCUT    = 600
+  EDIFF    = 1E-6
+#  ISTART   = 0
+  
+  GGA  = PS
+#  NCORE    = 6
+
+  IBRION   = 8
+#  ISIF     = 3
+#  ISPIN    = 2 
+#  NSW      = 1
+  NELM = 100
+LEPSILON = .TRUE.
+#IDIPOL = 4
+
+#  NBMOD = -3
+#  EINT = -0.1 0.1
+
+#NEDOS = 2001
+#EMIN  = -20
+#EMAX  =  20
+
+ISMEAR = -5
